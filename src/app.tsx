@@ -4,10 +4,12 @@ import { Map } from "./components/main/map";
 
 export function App() {
   return (
-    <>
+    <div className="relative overflow-hidden">
       <Header />
-      <Map />
+      <div className="flex-grow">
+        <Map />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
