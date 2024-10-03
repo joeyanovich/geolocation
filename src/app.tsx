@@ -1,7 +1,13 @@
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import { Map } from "./components/main/map";
+
 export function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <Map />
+      <Footer />
     </>
   );
 }
